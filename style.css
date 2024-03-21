@@ -1,0 +1,129 @@
+body
+
+{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile
+
+{
+    border-radius: 50%;
+    width: 300px;
+}
+
+#welcome
+
+{
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(#ad02fc 0%, #039dfd 100% );
+  display: table;
+  height: 100%;
+  width: 100%;  
+}
+
+h1
+
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+h2
+
+{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#name
+
+{  
+     font-size: 50px;
+
+     font-family: "Madimi One", sans-serif;      
+}
+
+#bio
+
+{
+    padding: 100px;
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.line
+
+{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner
+
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu
+
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    margin-top: 0px; 
+    background: white;
+}
+
+.links
+
+{
+    display: inline;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px; 
+}
+
+.links:hover
+
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#writings a
+
+{
+    text-decoration: underline !important;
+    color: rgb(0, 26, 255);
+}
+
+#contact
+
+{
+    background: grey;
+}
+
+.contact_1 h3
+
+{
+    display: inline;
+}
+
+#contact iframe
+
+{
+    width: 100%;
+}
